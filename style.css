@@ -1,0 +1,98 @@
+/*font-family: 'Muli', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Bevan', cursive;
+*/
+
+body {
+  background: rgb(245, 245, 245);
+  color: rgb(30, 30, 30);
+  font-family: 'Muli', sans-serif;
+  font-size: 15px;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Kaushan Script', cursive;
+}
+
+h1 {
+  font-size: 25px;
+  color: #d94b4b;
+}
+
+h2 {
+  font-size: 20px
+}
+
+h3 {
+  font-size: 16px;
+}
+
+div {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+table p {
+  padding-bottom: 23px;
+}
+
+table img {
+    width: 150px;
+    margin-right: 25px;
+}
+
+/* IDs and Classes */
+
+#avatar {
+  height: 150px;
+  border-radius: 50%;
+}
+
+.btn-red {
+  color: white;
+  background: #d94b4b;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-red:hover {
+  background: #d94b4b;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  transition: ease 0.1s all;
+}
+
+.list-inline {
+  list-style: none;
+  padding-top: 20px;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 20px;
+  color: rgb(150, 150, 150);
+}
+
+.list-inline a {
+  text-decoration: none;
+  color: rgb(180, 180, 180);
+  font-size: 20px;
+}
+
+.list-inline a:hover {
+  color: rgb(120, 120, 120);
+}
+
+td {
+  text-align: left;
+}
+
